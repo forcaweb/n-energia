@@ -9,15 +9,14 @@ include('./../app/autoload.php');
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= URL ?>/img/favicon.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="RWTECH, EzPoint, EzPointWeb, EzPointMobile, IPointLine, controle de ponto, Registro de ponto, relógio de ponto, REP, software de apuração de ponto, tecbiowebce, tecbioweb ce, tecbioif, tecbio if, ponto facial">
+    <meta name="keywords" content="Sistem de Energia solar, Economize Energia, Energia Natural, Energia do Sol, Investimento, Economia de Dinheiro, Energia Solar">
     <meta name="author" content="Força Web">
-    <meta name="Description" CONTENT="Nosso aplicativo tem a função de envio das batidas off-line em segundo plano, essencial para colaboradores com função externas INOVAÇÃO, TECNOLOGIA, SEGURANÇA E CUSTO BAIXO, Ponto Eletronico Homologado">
+    <meta name="description" content="Nosso Sistema de Energia Solar te dara uma economia. A energia solar vem crescendo muito. Orçamento que vale apena investir.">
     <meta name="robots" content="noindex,nofollow">
-    <meta name="google-site-verification" content="82UC4QY3LR1EVwelKsYqqwzsAmXn05dh0BOl7ZRe17E" />
-    <link rel="canonical" href="https://tecbiowebce.com.br/"/>
+    <link rel="canonical" href="https://timeenergia.com/"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="theme-color" content="#FFFFFF"/>
     <meta name="msapplication-TileColor" content="#FFF"/>
@@ -26,7 +25,7 @@ include('./../app/autoload.php');
     <meta name="MobileOptimized" content="320"/>
     <link rel="profile" href="https://gmpg.org/xfn/11"/>
     <link rel="stylesheet" href="<?= URL ?>/public/css/swiper-bundle.min.css?<?= VER_WEB ?>">
-    <link rel="stylesheet" href="<?= URL ?>/public/css/swiper.css?<?= VER_WEB ?>">   
+    <link rel="stylesheet" href="<?= URL ?>/public/css/swiper.css?<?= VER_WEB ?>">
     <link rel="stylesheet" href="<?= URL ?>/public/css/style.css?<?= VER_WEB ?>">
     <link rel="stylesheet" href="<?= URL ?>/public/font/bootstrap-icons.css?<?= VER_WEB ?>">
     <title><?= TITLLE_WEB ?></title>
