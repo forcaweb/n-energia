@@ -19,11 +19,6 @@ body{
     justify-content: flex-start;
     background-color: var(--colorgray);
     align-items: center;
-    background-image: url(../img/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
 }
 
 a{
@@ -194,6 +189,12 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 100vh;
 }
 
 .container .section-contents article{
@@ -205,8 +206,8 @@ h1{
   align-items: center;
   gap: 10px;
   padding: 10px 100px;
-  min-height: 100vh;
   background-color: rgba(3, 3, 3, 0.308);
+  min-height: 100vh;
 }
 
 .container .section-contents article div{
@@ -267,7 +268,118 @@ h1{
   background-color: var(--colorgreen);
 }
 
+.seemore{
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: movemore 1s infinite;
+}
+
+@keyframes movemore {
+  0%{
+    transform: translateY(0px);
+  }
+
+  50%{
+    transform: translateY(10px);
+  }
+
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+.seemore h2{
+  background-color: var(--colorwhite);
+  color: var(--colororange);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 30px;
+}
+
+.seemore p{
+  font-size: 30px;
+  color: var(--colorwhite);
+}
+
+.container .installep{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorwhite);
+  background-image: url(../img/installep.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 100vh;
+}
+
+.container .installep article{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  background: linear-gradient(to right, #022dbb95, #022dbb95, transparent);
+  width: 100%;
+  min-height: 100vh;
+  gap: 4px;
+  flex-direction: column;
+  padding: 30px 100px;
+}
+
+.container .installep article h2{
+  color: var(--colorwhite);
+  font-size: 60px;
+  text-transform: uppercase;
+  background-color: #013750;
+  border-radius: 50% 4px;
+}
+
+.container .installep article p{
+  color: var(--colorwhite);
+  font-size: 30px;
+  border-radius: 4px;
+}
+
+.container .installep article small{
+  color: var(--colorwhite);
+  font-size: 22px;
+  border-radius: 4px;
+}
+
+.container .installep article .price{
+  color: #eee209;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container .installep article a{
+  background-color: var(--colororange);
+  color: var(--colorwhite);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.4s all;
+  text-transform: uppercase;
+}
+
+.container .installep article a:hover{
+  background-color: var(--colorgreen);
+}
+
 @media only screen and (max-width: 912px) {
+  .container .installep article{
+    padding: 10px;
+  }
+
   .container .section-contents article div{
     width: 100%;
   }
