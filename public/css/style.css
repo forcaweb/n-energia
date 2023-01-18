@@ -326,7 +326,7 @@ h1{
   justify-content: center;
   align-items: flex-start;
   position: relative;
-  background: linear-gradient(to right, #022dbb95, #022dbb95, transparent);
+  background: linear-gradient(to right, #022dbb, #0738dc, transparent);
   width: 100%;
   min-height: 100vh;
   gap: 4px;
@@ -375,9 +375,86 @@ h1{
   background-color: var(--colorgreen);
 }
 
+.container .installeptable{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorgray);
+  min-height: 100vh;
+  padding: 30px;
+}
+
+
+.container .installeptable div{
+  width: 100%;
+  position: relative;
+  display: block;
+  border-radius: 4px;
+  overflow: auto;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .installeptable table{
+  width: 100%;
+  min-width: 700px;
+  position: relative;
+  display: table;
+  background-color: var(--colorwhite);
+  padding: 10px;
+  border-radius: 4px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container .installeptable h2{
+  background-color: var(--colorblue);
+  padding: 10px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--colorwhite);
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  width: 100%;
+  min-width: 700px;
+}
+
+.container .installeptable table thead{
+  position: relative;
+  display: table-header-group;
+  background-color: #013750;
+}
+
+.container .installeptable table thead th{
+  font-size: 20px;
+  color: #eee209;
+  border: 1px solid var(--colorgray);
+  padding: 7px;
+}
+
+.container .installeptable table tbody{
+  position: relative;
+  display: table-footer-group;
+  text-align: center;
+}
+
+.container .installeptable table tbody tr:hover{
+  background-color: #f23e02;
+  color: var(--colorwhite);
+}
+
+.container .installeptable table tbody td{
+  border: 1px solid var(--colorgray);
+  font-size: 17px;
+  padding: 10px;
+}
+
 @media only screen and (max-width: 912px) {
   .container .installep article{
-    padding: 10px;
+    padding: 20px;
   }
 
   .container .section-contents article div{
@@ -391,9 +468,6 @@ h1{
     padding: 10px 20px;
   }
 
-  /* .container .section-contents article div img{
-    display: none;
-  } */
 
   .navigation-container{
     position: sticky;
@@ -410,5 +484,30 @@ h1{
 
   .navigation-container .navigation{
     padding: 5px 40px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .container .installeptable{
+    padding: 20px;
+  }
+
+  .container .installeptable table div{
+    width: 100%;
+    overflow: auto;
+  }
+
+  .container .installeptable h2{
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .container .installeptable table thead th{
+    font-size: 11px;
+  }
+
+  .container .installeptable table tbody td{
+    font-size: 11px;
+    font-weight: bold;
   }
 }

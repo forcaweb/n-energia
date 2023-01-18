@@ -18,6 +18,82 @@
     </div>
   </section>
 
+  <section class="installeptable">
+    <div>
+    <table>
+      <thead>
+        <h2>Geração de energia</h2>
+        <tr>
+          <th>LM</th>
+          <th>Descrição</th>
+          <th>Produção mensal</th>
+          <th>Valor da conta de energia</th>
+          <th>Valor Kit de energia </th>
+          <th>Valor Kit Instalação </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>91918302</td>
+          <td>Descrição do kit</td>
+          <td>172 KWH</td>
+          <td>R$ 150,00</td>
+          <td>R$ 8.999.99</td>
+          <td>R$ 2.700.99</td>
+        </tr>
+        <tr>
+          <td>91918302</td>
+          <td>Descrição do kit</td>
+          <td>172 KWH</td>
+          <td>R$ 150,00</td>
+          <td>R$ 8.999.99</td>
+          <td>R$ 2.700.99</td>
+        </tr>
+        <tr>
+          <td>91918302</td>
+          <td>Descrição do kit</td>
+          <td>172 KWH</td>
+          <td>R$ 150,00</td>
+          <td>R$ 8.999.99</td>
+          <td>R$ 2.700.99</td>
+        </tr>
+        <tr>
+          <td>91918302</td>
+          <td>Descrição do kit</td>
+          <td>172 KWH</td>
+          <td>R$ 150,00</td>
+          <td>R$ 8.999.99</td>
+          <td>R$ 2.700.99</td>
+        </tr>
+        <tr>
+          <td>91918302</td>
+          <td>Descrição do kit</td>
+          <td>172 KWH</td>
+          <td>R$ 150,00</td>
+          <td>R$ 8.999.99</td>
+          <td>R$ 2.700.99</td>
+        </tr>
+        <tr>
+          <td>91918302</td>
+          <td>Descrição do kit</td>
+          <td>172 KWH</td>
+          <td>R$ 150,00</td>
+          <td>R$ 8.999.99</td>
+          <td>R$ 2.700.99</td>
+        </tr>
+        <tr>
+          <td>91918302</td>
+          <td>Descrição do kit</td>
+          <td>172 KWH</td>
+          <td>R$ 150,00</td>
+          <td>R$ 8.999.99</td>
+          <td>R$ 2.700.99</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
   <section class="installep">
     <article>
         <h2>Instalação de painel</h2>
