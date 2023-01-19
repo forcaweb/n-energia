@@ -382,11 +382,11 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--colorgray);
+  background-color: var(--colorwhite);
   min-height: 100vh;
   padding: 30px;
+  overflow: hidden;
 }
-
 
 .container .installeptable div{
   width: 100%;
@@ -426,13 +426,14 @@ h1{
   position: relative;
   display: table-header-group;
   background-color: #013750;
+  border: 0.5px solid #eee209;
 }
 
 .container .installeptable table thead th{
   font-size: 20px;
   color: #eee209;
-  border: 1px solid var(--colorgray);
-  padding: 7px;
+  padding: 10px;
+  text-align: center;
 }
 
 .container .installeptable table tbody{
@@ -447,9 +448,77 @@ h1{
 }
 
 .container .installeptable table tbody td{
-  border: 1px solid var(--colorgray);
+  border: 0.5px solid var(--colorgray);
   font-size: 17px;
   padding: 10px;
+}
+
+
+.container .pricesep{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorwhite);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container .pricesep .desc{
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.container .pricesep .desc h2{
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #013750;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+
+.container .pricesep .desc p{
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #f23e02;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+
+.container .pricesep .swiper-container{
+  width: 100%;
+  border-radius: 4px;
+}
+
+.container .pricesep .swiper-container .swiper-slide{
+  flex-direction: column;
+  background: var(--colorgray);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.container .pricesep .swiper-container .swiper-slide h3{
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #013750;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+
+.container .pricesep .swiper-container .swiper-slide h3 i{
+  color: #eee209;
 }
 
 @media only screen and (max-width: 912px) {

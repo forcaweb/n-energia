@@ -2,7 +2,7 @@
   <nav class="navigation">
     <ul>
       <li class="logo"><a href="<?= URL ?>" aria-label="Logo">
-        <img src="<?= URL ?>/img/logo.png" alt="Logo oficial website">
+        <img src="<?= URL ?>/img/logo.png" alt="Logo oficial website" decoding="async" size="(max-width: 217px) 100vw, 217px">
       </a></li>
     </ul>
     <ul id="menu">
