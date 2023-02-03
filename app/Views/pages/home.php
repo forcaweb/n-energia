@@ -27,7 +27,7 @@ date_default_timezone_set( 'America/Sao_Paulo' );
     <div>
     <table>
       <thead>
-        <h2>Geração de energia com inversor de string</h2>
+        <h2>Geração de energia com inversor string</h2>
         <p><i class="bi bi-lightning-fill"></i> Promoções de <?= $months[$monthtoday]; ?></p>
         <tr>
           <th>KITS</th>
