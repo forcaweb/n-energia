@@ -1,5 +1,10 @@
-<main class="container">
-<?php include '../app/Views/pages/componets/menu.php';?>
+<main class="container effectPage">
+<?php
+include '../app/Views/pages/componets/menu.php';
+include 'tableprices.php';
+setlocale( LC_ALL, 'pt_BR', 'pt_BR.iso-8859-1', 'pt_BR.utf-8', 'portuguese' );
+date_default_timezone_set( 'America/Sao_Paulo' );
+?>
   <section class="section-contents">
     <article>
       <div>
@@ -22,73 +27,22 @@
     <div>
     <table>
       <thead>
-        <h2>Geração de energia</h2>
+        <h2>Geração de energia com inversor de string</h2>
+        <p><i class="bi bi-lightning-fill"></i> Promoções de <?= $months[$monthtoday]; ?></p>
         <tr>
-          <th>LM</th>
-          <th>Descrição</th>
-          <th>Produção mensal</th>
-          <th>Valor da conta de energia</th>
-          <th>Valor Kit de energia </th>
-          <th>Valor Kit Instalação </th>
+          <th>KITS</th>
+          <th>Redução de seu consumo</th>
+          <th>Projeto, materiais, instalação e homologação</th>
         </tr>
       </thead>
       <tbody>
+        <?php for($i = 0; $i < count($desc['descricao']); $i++){ ?>
         <tr>
-          <td>91918302</td>
-          <td>Descrição do kit</td>
-          <td>172 KWH</td>
-          <td>R$ 150,00</td>
-          <td>R$ 8.999.99</td>
-          <td>R$ 2.700.99</td>
+          <td><i class="bi bi-brightness-high"></i> Kit Solar Gerando <?= $desc['descricao'][$i] ?> KWP</td>
+          <td><?= $desc['producao_mensal'][$i] ?> KWH</td>
+          <td>R$ <?= number_format($desc['valor'][$i],2,",","."); ?></td>
         </tr>
-        <tr>
-          <td>91918302</td>
-          <td>Descrição do kit</td>
-          <td>172 KWH</td>
-          <td>R$ 150,00</td>
-          <td>R$ 8.999.99</td>
-          <td>R$ 2.700.99</td>
-        </tr>
-        <tr>
-          <td>91918302</td>
-          <td>Descrição do kit</td>
-          <td>172 KWH</td>
-          <td>R$ 150,00</td>
-          <td>R$ 8.999.99</td>
-          <td>R$ 2.700.99</td>
-        </tr>
-        <tr>
-          <td>91918302</td>
-          <td>Descrição do kit</td>
-          <td>172 KWH</td>
-          <td>R$ 150,00</td>
-          <td>R$ 8.999.99</td>
-          <td>R$ 2.700.99</td>
-        </tr>
-        <tr>
-          <td>91918302</td>
-          <td>Descrição do kit</td>
-          <td>172 KWH</td>
-          <td>R$ 150,00</td>
-          <td>R$ 8.999.99</td>
-          <td>R$ 2.700.99</td>
-        </tr>
-        <tr>
-          <td>91918302</td>
-          <td>Descrição do kit</td>
-          <td>172 KWH</td>
-          <td>R$ 150,00</td>
-          <td>R$ 8.999.99</td>
-          <td>R$ 2.700.99</td>
-        </tr>
-        <tr>
-          <td>91918302</td>
-          <td>Descrição do kit</td>
-          <td>172 KWH</td>
-          <td>R$ 150,00</td>
-          <td>R$ 8.999.99</td>
-          <td>R$ 2.700.99</td>
-        </tr>
+        <?php } ?>
       </tbody>
     </table>
     </div>
@@ -96,10 +50,9 @@
 
   <section class="installep">
     <article>
-        <h2>Instalação de painel</h2>
-        <p>Seu Painel Solar Instalado</p>
-        <small>Apartir de:</small>
-        <p class="price">R$ 8.999.99</p>
+        <h2>instalação de sistemas para aquelas contas de até 150 kwp R$ 120/mês</h2>
+        <small>kit com micro inversor por:</small>
+        <p class="price">R$ 8.600.00</p>
         <a href="<?= Wtsmsg1 ?>">Ir Para o Chat</a>
     </article>
   </section>
@@ -109,6 +62,7 @@
       <h2>Vale apena usar nossos kits?</h2>
       <p>Veja um exemplo de economia. Um antes e depois de usar nossos kits.</p>
       <p>Veja nessas imagens as vantagens de usar nossos kits:</p>
+      <a href="<?= Wts ?>">Ir Para o Chat</a>
     </div>
     <!-- Swiper -->
     <div class="swiper swiper-container">
@@ -125,5 +79,20 @@
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
     </div>
+  </section>
+
+  <section class="section-contents economic">
+    <article>
+      <div>
+        <img src="<?= URL ?>/img/casa.png" alt="Exemplo de um equipamento" decoding="async">
+      </div>
+      <div>
+        <h1>Sustentável & Econômico</h1>
+        <p><i class="bi bi-check2-circle"></i> Gera energia sem deixar resíduos.</p>
+        <p><i class="bi bi-check2-circle"></i> Com vida útil de até 25 anos.</p>
+        <p><i class="bi bi-check2-circle"></i> E economize em até 95% do valor de sua energia.</p>
+        <a href="<?= Wts ?>">Ir Para o Chat</a>
+      </div>
+    </article>
   </section>
 </main>
