@@ -599,6 +599,7 @@ h1{
   gap: 6px;
   position: relative;
   padding: 10px;
+  max-width: 350px;
 }
 
 .footer .linksUltis .boxLinks h2{
@@ -609,6 +610,7 @@ h1{
 .footer .linksUltis .boxLinks p{
   font-size: 18px;
   color: #fff;
+  text-align: center;
 }
 
 .footer .linksUltis .boxLinks img{

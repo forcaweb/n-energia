@@ -8,13 +8,15 @@
 
       <div class="boxLinks">
         <h2>Contatos</h2>
-        <p>(61) 9 9871-5682</p>
+        <p>(61) 9 99871-5682</p>
+        <p>(61) 9 9838-6052</p>
         <p>suporte@gmail.com</p>
       </div>
 
       <div class="boxLinks">
         <h2>Endereço</h2>
-        <p>St. C Norte - Taguatinga Brasília - DF 70297-400</p>
+        <p>SCN –SETOR COMERCIAL NORTE QUADRA 04 BLOCO “B” SALA 702, PARTE 896, ASA NORTE,
+        CEP.: 70.714-020, BRASÍLIA/DF</p>
       </div>
 
     </div>

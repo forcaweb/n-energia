@@ -50,7 +50,7 @@ date_default_timezone_set( 'America/Sao_Paulo' );
 
   <section class="installep">
     <article>
-        <h2>instalação de sistemas para aquelas contas de até 150 kwp R$ 120/mês</h2>
+        <h2>instalação de sistemas para aquelas contas de até 150 kwp R$ 128,00/mês</h2>
         <small>kit com micro inversor por:</small>
         <p class="price">R$ 8.600.00</p>
         <a href="<?= Wtsmsg1 ?>">Ir Para o Chat</a>
