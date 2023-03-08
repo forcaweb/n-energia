@@ -14,7 +14,7 @@ date_default_timezone_set( 'America/Sao_Paulo' );
         <a href="<?= Wts ?>">Ir Para o Chat</a>
       </div>
       <div>
-        <img src="<?= URL ?>/img/image_equipment.png" alt="Exemplo de um equipamento" decoding="async">
+        <img src="<?= URL ?>/img/image_equipment.png?<?= VER_WEB ?>" alt="Exemplo de um equipamento" decoding="async">
       </div>
     </article>
     <div class="seemore">
@@ -27,7 +27,7 @@ date_default_timezone_set( 'America/Sao_Paulo' );
     <div>
     <table>
       <thead>
-        <h2>Geração de energia com inversor string</h2>
+        <h2>GERAÇÃO DE ENERGIA COM MICRO INVERSOR</h2>
         <p><i class="bi bi-lightning-fill"></i> Promoções de <?= $months[$monthtoday]; ?></p>
         <tr>
           <th>KITS</th>
@@ -48,14 +48,14 @@ date_default_timezone_set( 'America/Sao_Paulo' );
     </div>
   </section>
 
-  <section class="installep">
+  <!-- <section class="installep">
     <article>
-        <h2>instalação de sistemas para aquelas contas de até 150 kwp R$ 128,00/mês</h2>
+        <h2>instalação de sistemas para aquelas contas de até 150 kwh R$ 128,00/mês</h2>
         <small>kit com micro inversor por:</small>
         <p class="price">R$ 8.600.00</p>
         <a href="<?= Wtsmsg1 ?>">Ir Para o Chat</a>
     </article>
-  </section>
+  </section> -->
 
   <section class="pricesep">
     <div class="desc">
@@ -69,11 +69,11 @@ date_default_timezone_set( 'America/Sao_Paulo' );
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <h3><i class="bi bi-emoji-neutral-fill"></i> Antes</h3>
-          <img src="<?= URL ?>/img/after.png" alt="after price" decoding="async">
+          <img src="<?= URL ?>/img/before.png?<?= VER_WEB ?>" alt="before price" decoding="async">
         </div>
         <div class="swiper-slide">
           <h3><i class="bi bi-emoji-smile-fill"></i> Depois</h3>
-          <img src="<?= URL ?>/img/before.png" alt="before price" decoding="async">
+          <img src="<?= URL ?>/img/after.png?<?= VER_WEB ?>" alt="after price" decoding="async">
         </div>
       </div>
       <div class="swiper-button-next"></div>
@@ -84,7 +84,7 @@ date_default_timezone_set( 'America/Sao_Paulo' );
   <section class="section-contents economic">
     <article>
       <div>
-        <img src="<?= URL ?>/img/casa.png" alt="Exemplo de um equipamento" decoding="async">
+        <img src="<?= URL ?>/img/casa.png?<?= VER_WEB ?>" alt="Exemplo de um equipamento" decoding="async">
       </div>
       <div>
         <h1>Sustentável & Econômico</h1>
