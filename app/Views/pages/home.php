@@ -36,11 +36,11 @@ date_default_timezone_set( 'America/Sao_Paulo' );
         </tr>
       </thead>
       <tbody>
-        <?php for($i = 0; $i < count($desc['descricao']); $i++){ ?>
+        <?php for($i = 0; $i < count($table['descricao']); $i++){ ?>
         <tr>
-          <td><i class="bi bi-brightness-high"></i> Kit Solar Gerando <?= $desc['descricao'][$i] ?> KWP</td>
-          <td><?= $desc['producao_mensal'][$i] ?> KWH</td>
-          <td>R$ <?= number_format($desc['valor'][$i],2,",","."); ?></td>
+          <td><i class="bi bi-brightness-high"></i> <?= $i ?> - Kit Solar Gerando <?= $table['descricao'][$i] ?> KWP</td>
+          <td><?= $table['producao_mensal'][$i] ?> KWH</td>
+          <td>R$ <?= number_format($table['valor'][$i],2,",","."); ?></td>
         </tr>
         <?php } ?>
       </tbody>
