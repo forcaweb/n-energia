@@ -7,7 +7,7 @@
     </ul>
     <ul id="menu">
       <li><a href="<?= URL ?>/" aria-label="Home">Home</a></li>
-      <li><a href="https://timeenergia.com.br/contato" aria-label="Contato">Contato</a></li>
+      <li><a href="#" aria-label="Contato">Contato</a></li>
     </ul>
 
     <ul class="menu-mobile">
