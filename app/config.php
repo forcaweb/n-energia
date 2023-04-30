@@ -22,8 +22,8 @@ define('URL', 'http://localhost/nenergia');
 define('DOM_WEB', 'www.timeenergia.com');
 
 //Links uteis
-define('Wts', 'https://api.whatsapp.com/send?phone=5561998335758&text=Preciso%20de%20informa%C3%A7%C3%B5es%20de%20como%20adquirir%20meu%20sistema%C2%A0solar.');
-define('Wtsmsg1', 'https://api.whatsapp.com/send?phone=5561998335758&text=Preciso%20de%20informa%C3%A7%C3%B5es%20de%20como%20adquirir%20meu%20sistema%C2%A0solar.');
+define('Wts', 'https://api.whatsapp.com/send?phone=5561999386052&text=Preciso%20de%20informa%C3%A7%C3%B5es%20de%20como%20adquirir%20meu%20sistema%C2%A0solar.');
+define('Wtsmsg1', 'https://api.whatsapp.com/send?phone=5561999386052&text=Preciso%20de%20informa%C3%A7%C3%B5es%20de%20como%20adquirir%20meu%20sistema%C2%A0solar.');
 define('inst', 'https://www.instagram.com/');
 define('avail', 'https://www.google.com/search?q=');
 //Link do desenvolvedor

@@ -27,7 +27,7 @@ date_default_timezone_set( 'America/Sao_Paulo' );
     <div>
     <table>
       <thead>
-        <h2>ECONOMIZE 95% DE SUA DE LUZ COM SEU SISTEMA SOLAR</h2>
+        <h2>ECONOMIZE 95% DE SUA CONTA DE LUZ COM SEU SISTEMA SOLAR</h2>
         <p><i class="bi bi-lightning-fill"></i> Promoções de <?= $months[$monthtoday]; ?></p>
         <tr>
           <th>KITS</th>

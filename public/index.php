@@ -14,7 +14,7 @@ include('./../app/autoload.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Sistem de Energia solar, Economize Energia, Energia Natural, Energia do Sol, Investimento, Economia de Dinheiro, Energia Solar">
     <meta name="author" content="Força Web">
-    <meta name="description" content="Nosso Sistema de Energia Solar te dara uma economia. A energia solar vem crescendo muito. Orçamento que vale apena investir.">
+    <meta name="description" content="Nosso Sistema de Energia Solar te dara uma economia. A energia solar vem crescendo muito. Orçamento que vale apena investir. Sistem de Energia solar, Economize Energia, Energia Natural, Energia do Sol, Investimento, Economia de Dinheiro, Energia Solar.">
     <meta name="robots" content="noindex,nofollow">
     <link rel="canonical" href="https://timeenergia.com/"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>

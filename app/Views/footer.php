@@ -8,8 +8,7 @@
 
       <div class="boxLinks">
         <h2>Contatos</h2>
-        <p>(61) 9 99871-5682</p>
-        <p>(61) 9 9838-6052</p>
+        <p>(61) 9 9938-6052</p>
         <p>suporte@gmail.com</p>
       </div>
 
